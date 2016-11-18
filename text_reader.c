@@ -2,7 +2,8 @@
 
 int main() {
   FILE *file;
-  int counter;
+  char counter;
+  char buffer[100];
   file = fopen("sample.txt", "r");
   while (1) {
     counter = fgetc(file);
