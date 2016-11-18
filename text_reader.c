@@ -13,5 +13,6 @@ int main() {
 
     printf("%c", counter);
   }
+  fclose(file);
   return 0;
 }
